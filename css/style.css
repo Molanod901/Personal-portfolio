@@ -1,7 +1,47 @@
 body {
-    /* font-family: monospace; */
+    font-family: 'Staatliches', cursive;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+
+nav h4 {
+    margin: 0 3%;
+    letter-spacing: 0.1em;
+    padding: 16px 60px;
+}
+
+nav h4:hover {
+    background-color: rgb(235,235,235);
+}
+
+main {
+    position: relative;
+    margin-top: 80px;
+}
+
+#title {
+    height: 500px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title h1 {
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#acerca {
+    height: 500px;
+    width: 100%;
 }
